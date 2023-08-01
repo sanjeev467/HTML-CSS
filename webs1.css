@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+}
+
+.bgimage{
+    background-image:url(image1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+   
+}
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu{
+    width: 20%;
+    line-height: 100px;
+    float: left;
+}
+.leftmenu h4{
+    padding-left: 80px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.rightmenu{
+    width: 75%;
+    height: 100px;
+    float: right;
+}
+.rightmenu ul li{
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-block;
+    list-style: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 40px;
+    transition: 0.1s;
+    
+}
+
+.rightmenu ul{
+    margin-left: 190px;
+    text-transform: uppercase;
+}
+
+.rightmenu ul li:first-child{
+    color: orange;
+}
+.rightmenu ul li:hover{
+    color: orange;
+}
+
+.text{
+    width: 100%;
+    margin-top: 180px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+
+}
+.text h4{
+    font-size: 22px;
+    padding-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.text h1{
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+    font-size: 60px;
+    padding-bottom:10px ;
+
+}
+
+#button1{
+    font-family: 'Ubuntu', sans-serif;
+    border:2px solid orangered ;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 40px;
+    width: 150px;
+    transition: 0.2s;
+    
+}
+
+#button2{
+    font-family: 'Ubuntu', sans-serif;
+    border:2px solid orangered ;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 40px;
+    width: 150px;
+    transition: 0.2s;
+    
+}
+
+#button1:hover{
+    background-color: lightcoral;
+}
+
+#button2:hover{
+    background-color: goldenrod;
+}
+
+.text h3{
+    font-size: 22px;
+    background: -webkit-linear-gradient(#ff00ff, #ff1a1a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
